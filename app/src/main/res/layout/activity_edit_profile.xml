@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back"
+            />
+        <TextView
+            android:id="@+id/tv_editprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/editprofile"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="110dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fm"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
